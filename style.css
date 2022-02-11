@@ -1,15 +1,4 @@
-body {
-    background: gray;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align:left;
-    display:flex;
 
-}
-
-
- 
 
 
 @keyframes slide {
@@ -51,9 +40,10 @@ body {
 #slider {
     overflow: hidden;
 }
-#slider figure img{
+#slider figure img {
     float: left;
     width: 16%
+    
 }
 #slider figure {
     position: relative;
@@ -64,10 +54,11 @@ body {
 
 h1 {
     position: absolute;
-    top: 45%;
-    left: 20%;
+    top: 60%;
+    left: 10%;
+    right: 15%;
     background-size: 400%;
-    font-size: 100px;
+    font-size: 20px;
     font-family: san-serif;
     letter-spacing: 10px;
     word-spacing: 5px;
